@@ -105,8 +105,7 @@ for i in range(500,20001,500):
     timetake=timetake[5:]
     print("timetake",timetake)
     acc[6,n]=float(timetake)
-    print("")
-    
+    print("")    
     n=n+1    
 fig, ax = plt.subplots(figsize=(12, 8))
 #ax.bar(index, avgCost)
