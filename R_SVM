@@ -1,21 +1,4 @@
 
-R version 3.3.3 (2017-03-06) -- "Another Canoe"
-Copyright (C) 2017 The R Foundation for Statistical Computing
-Platform: x86_64-w64-mingw32/x64 (64-bit)
-
-R is free software and comes with ABSOLUTELY NO WARRANTY.
-You are welcome to redistribute it under certain conditions.
-Type 'license()' or 'licence()' for distribution details.
-
-  Natural language support but running in an English locale
-
-R is a collaborative project with many contributors.
-Type 'contributors()' for more information and
-'citation()' on how to cite R or R packages in publications.
-
-Type 'demo()' for some demos, 'help()' for on-line help, or
-'help.start()' for an HTML browser interface to help.
-Type 'q()' to quit R.
 
 > letters<-(file="C:/Users/anirban_b05/Documents/Downloads/mytrinity/Trinity/Subjects/ml/Project-Group/DataSetLetter.csv",stringAsFactors=F,header=T)
 Error: unexpected ',' in "letters<-(file="C:/Users/anirban_b05/Documents/Downloads/mytrinity/Trinity/Subjects/ml/Project-Group/DataSetLetter.csv","
@@ -84,14 +67,14 @@ Error in read.table(file = file, header = header, sep = sep, quote = quote,  :
  Max.   :15.000   Max.   :15.000   Max.   :15.000   Max.   :15.000   Max.   :15.000   Max.   :15.000   Max.   :15.000   Max.   :15.000  
                                                                                                                                         
 > library(e1071)
-Error in library(e1071) : there is no package called ‘e1071’
+Error in library(e1071) : there is no package called Â‘e1071Â’
 > import e1071
 Error: unexpected symbol in "import e1071"
 > install.packages("e1071", dep = TRUE) 
-Installing package into ‘C:/Users/anirban_b05/Documents/R/win-library/3.3’
-(as ‘lib’ is unspecified)
+Installing package into Â‘C:/Users/anirban_b05/Documents/R/win-library/3.3Â’
+(as Â‘libÂ’ is unspecified)
 --- Please select a CRAN mirror for use in this session ---
-also installing the dependencies ‘mlbench’, ‘randomForest’, ‘SparseM’
+also installing the dependencies Â‘mlbenchÂ’, Â‘randomForestÂ’, Â‘SparseMÂ’
 
 
   There is a binary version available but the source version is later:
@@ -115,10 +98,10 @@ trying URL 'https://ftp.heanet.ie/mirrors/cran.r-project.org/bin/windows/contrib
 Content type 'application/zip' length 894376 bytes (873 KB)
 downloaded 873 KB
 
-package ‘mlbench’ successfully unpacked and MD5 sums checked
-package ‘randomForest’ successfully unpacked and MD5 sums checked
-package ‘SparseM’ successfully unpacked and MD5 sums checked
-package ‘e1071’ successfully unpacked and MD5 sums checked
+package Â‘mlbenchÂ’ successfully unpacked and MD5 sums checked
+package Â‘randomForestÂ’ successfully unpacked and MD5 sums checked
+package Â‘SparseMÂ’ successfully unpacked and MD5 sums checked
+package Â‘e1071Â’ successfully unpacked and MD5 sums checked
 
 The downloaded binary packages are in
         C:\Users\anirban_b05\AppData\Local\Temp\Rtmpu6ZPZl\downloaded_packages
