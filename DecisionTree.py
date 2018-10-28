@@ -8,7 +8,6 @@ from sklearn.tree import DecisionTreeRegressor
 X=np.genfromtxt('credit_card.csv', delimiter = ',',usecols=(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23))
 y=np.genfromtxt('credit_card.csv', delimiter = ',', dtype='str',usecols=(0))
 acc =np.zeros((3,60))
-
 n=0
 for i in range(500,30001,500):
     starttime=datetime.datetime.now()
