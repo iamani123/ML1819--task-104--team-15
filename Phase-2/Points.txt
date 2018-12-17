@@ -11,3 +11,12 @@ And unless the algorithm is very bad, they all settle down to some accuracy leve
 
 
 
+
+
+
+on original dataset
+10) X1-X5 deleted after feature selection by finding out the importance for LetterRecognition dataset
+11)X2,X3,X4,X8-X11 for CreditCard dataset
+
+
+
