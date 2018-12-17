@@ -1,1 +1,7 @@
 1) In case the amount of data is huge, pre-processing like standardization helps in improving the accuracy.
+2) value of C for Logistic was giving best accuracy at 10 when iterated in increment of 10x between 0.001 to 1000, penalty l1 is performing better than l2
+3) value of C is 1.0 having same reason.
+4) for kNN value of k = 10 and p = 2 (euclidean distance when taking metric = minkowski)
+5) for decision tree value of max depth was found to be 4 when iterated over 1 to 100
+6) for random forest - n_estimators and max_depth was taken as 10, after performing iteration from 1 to 100 for each hyperparameter.
+
