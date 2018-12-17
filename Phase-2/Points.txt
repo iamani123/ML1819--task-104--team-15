@@ -4,4 +4,6 @@
 4) for kNN value of k = 10 and p = 2 (euclidean distance when taking metric = minkowski)
 5) for decision tree value of max depth was found to be 4 when iterated over 1 to 100
 6) for random forest - n_estimators and max_depth was taken as 10, after performing iteration from 1 to 100 for each hyperparameter.
+7)  increasing the amount of data improves every algorithm's generalization error. But, for large amounts of data, the improvements start becoming negligible. 
+And unless the algorithm is very bad, they all settle down to some accuracy level.
 
