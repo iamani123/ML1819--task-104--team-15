@@ -56,7 +56,7 @@ for i in range(500,30001,500):
     
     print("recall ",recall)
     if((recall+precision)!=0):
-        result=(2*recall*precision)/(recall+precision)
+        result=(5*recall*precision)/(recall+5*precision)
     else:
         result=0
     
@@ -115,7 +115,7 @@ for i in range(500,30001,500):
     else:
         recall=0
     if((recall+precision)!=0):
-        result=(2*recall*precision)/(recall+precision)
+        result=(5*recall*precision)/(recall+5*precision)
     else:
         result=0
     print(i," ",result)
@@ -175,7 +175,7 @@ for i in range(500,30001,500):
     else:
         recall=0
     if((recall+precision)!=0):
-        result=(2*recall*precision)/(recall+precision)
+        result=(5*recall*precision)/(recall+5*precision)
     else:
         result=0  
     print(i," ",result)
@@ -223,7 +223,7 @@ for i in range(500,30001,500):
             FN=FN+1
    
     if((recall+precision)!=0):
-        result=(2*recall*precision)/(recall+precision)
+        result=(5*recall*precision)/(recall+5*precision)
     else:
         result=0 
     print("TP,TN,FP,FN",TP," ",TN," ",FP," ",FN)
@@ -292,7 +292,7 @@ for i in range(500,30001,500):
         recall=0
     print("recall ",recall)
     if((recall+precision)!=0):
-        result=(2*recall*precision)/(recall+precision)
+        result=(5*recall*precision)/(recall+5*precision)
     else:
         result=0
     acc[9,n]=result;
@@ -309,7 +309,7 @@ for i in range(500,30001,500):
     
     n=n+1
 
-np.savetxt("F1_DataSetLetter.csv", acc, delimiter=',')
+np.savetxt("F2_DataSetLetter.csv", acc, delimiter=',')
 fig, ax = plt.subplots(figsize=(12, 8))
 #ax.bar(index, avgCost)
 ax.plot(acc[0,:], acc[1,:], 'b', label='Logistic')
@@ -319,9 +319,9 @@ ax.plot(acc[0,:], acc[7,:], 'm', label='DecisionTree')
 ax.plot(acc[0,:], acc[9,:], 'k', label='RandomForest')
 #plt.xticks(index, cost[0,:], fontsize=5, rotation=30)
 ax.set_xlabel('Number Of Data')
-ax.set_ylabel('F1')
+ax.set_ylabel('F2')
 ax.legend(loc=2)
-fig.savefig('F1ForAllClassification_DataSet.png')
+fig.savefig('F2ForAllClassification_DataSet.png')
 
 fig1, ax1 = plt.subplots(figsize=(12, 8))
 #ax.bar(index, avgCost)
