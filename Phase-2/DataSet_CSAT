@@ -1,0 +1,31 @@
+Context
+This dataset consists of 384 features extracted from CT images. The class variable is numeric and denotes the relative location of the CT slice on the axial axis of the human body. The data was retrieved from a set of 53500 CT images from 74 different patients (43 male, 31 female).
+
+Content
+Each CT slice is described by two histograms in polar space. The first histogram describes the location of bone structures in the image, the second the location of air inclusions inside of the body. Both histograms are concatenated to form the final feature vector. Bins that are outside of the image are marked with the value -0.25.
+
+The class variable (relative location of an image on the axial axis) was constructed by manually annotating up to 10 different distinct landmarks in each CT Volume with known location. The location of slices in between landmarks was interpolated.
+
+Field Descriptions:
+
+patientId: Each ID identifies a different patient
+value[1-241]: Histogram describing bone structures
+value[242 - 385]: Histogram describing air inclusions
+386: Relative location of the image on the axial axis (class value).
+Values are in the range [0; 180] where 0 denotes the top of the head and 180 the soles of the feet.
+
+Acknowledgements
+Original dataset was downloaded from UCI Machine learning Repository
+
+Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
+Banner image acknowledgement:
+
+Self Portre on cat scan, 1997
+Title: "Soon I will be there"
+Date: 8 April 1997
+Author: Sérgio Valle Duarte
+License: CC BY 3.0
+Source: Wikipedia
+Inspiration
+Predict the relative location of CT slices on the axial axis
