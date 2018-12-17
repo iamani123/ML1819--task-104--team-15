@@ -7,5 +7,7 @@
 7)  increasing the amount of data improves every algorithm's generalization error. But, for large amounts of data, the improvements start becoming negligible. 
 And unless the algorithm is very bad, they all settle down to some accuracy level.
 8) Better data doesn't mean more data. With better data we have more accuracy but with just more data we can see that that the accuracy breaks even after a particular threshold.
+9) Data is important but data without a good approach in training machine learning algorithm becomes noise.
+
 
 
