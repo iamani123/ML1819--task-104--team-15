@@ -1,3 +1,5 @@
+Website : https://www.kaggle.com/uciml/ct-slice-localization
+
 Context
 This dataset consists of 384 features extracted from CT images. The class variable is numeric and denotes the relative location of the CT slice on the axial axis of the human body. The data was retrieved from a set of 53500 CT images from 74 different patients (43 male, 31 female).
 
