@@ -8,16 +8,9 @@
 And unless the algorithm is very bad, they all settle down to some accuracy level.
 8) Better data doesn't mean more data. With better data we have more accuracy but with just more data we can see that that the accuracy breaks even after a particular threshold.
 9) Data is important but data without a good approach in training machine learning algorithm becomes noise.
-
-
-
-
-
-
 on original dataset
-10) X1-X5 deleted after feature selection by finding out the importance for LetterRecognition dataset
-11)X2,X3,X4,X8-X11 for CreditCard dataset
-
+10) X1-X5 deleted after feature selection by finding out the importance for LetterRecognition dataset.
+11)X2,X3,X4,X8-X11 for CreditCard dataset.
 12) Ranking feature by importance aids in feature selection.
 
 
