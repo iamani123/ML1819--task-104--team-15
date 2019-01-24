@@ -1,0 +1,31 @@
+RMSE
+Dataset-1
+Figure<10> Cost of Dataset-1 without pre-processing
+Figure<11> Cost of Dataset-1 with pre-processing
+Time
+Figure <12> Dataset-1: Time vs Amount of Data
+Dataset-2
+Figure<13> Dataset-2: Time vs Amount of Data
+4.2 Classification 
+ACCURACY
+Dataset-3
+Figure<14> Accuracy of Dataset-3 without preprocessing
+Figure<15> Accuracy of Dataset-3 on applying normalization
+Figure <16> Accuracy of Dataset-3 on applying standardization
+Dataset-4
+Figure<17> Accuracy of Dataset-4 without preprocessing 
+Figure<18> Accuracy of Dataset-4 on applying normalization 
+Figure<19> Accuracy of Dataset-4 on applying standardization
+
+Time
+Dataset-4
+Figure<20>  Time vs Amount of Data, Algorithm: SVM
+Figure<21> Time vs Amount of Data, Algorithm:  Random Forest
+Figure <22> Time vs Amount of Data, Algorithm:  Decision Tree
+Figure<23> Time vs Amount of Data, Algorithm:  Logistic
+Figure<24> Time vs Amount of Data, Algorithm:  KNN
+
+FB
+Dataset-4
+Figure<25> F-beta measure of Dataset-4 on applying normalization 
+Figure<26> F-beta measure of Dataset-4 on applying standardization
